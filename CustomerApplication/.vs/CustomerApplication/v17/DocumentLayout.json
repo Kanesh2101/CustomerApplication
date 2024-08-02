@@ -1,12 +1,189 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "X:\\github\\UPCOMING\\CustomerApplication\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B94B85B0-56B6-4036-9FBE-85D26B50F9D4}|WebApplication1\\CustomerApplication.csproj|x:\\github\\upcoming\\customerapplication\\webapplication1\\globalresponse\\customerresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B94B85B0-56B6-4036-9FBE-85D26B50F9D4}|WebApplication1\\CustomerApplication.csproj|solutionrelative:webapplication1\\globalresponse\\customerresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B94B85B0-56B6-4036-9FBE-85D26B50F9D4}|WebApplication1\\CustomerApplication.csproj|x:\\github\\upcoming\\customerapplication\\webapplication1\\data\\repositories\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B94B85B0-56B6-4036-9FBE-85D26B50F9D4}|WebApplication1\\CustomerApplication.csproj|solutionrelative:webapplication1\\data\\repositories\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B94B85B0-56B6-4036-9FBE-85D26B50F9D4}|WebApplication1\\CustomerApplication.csproj|x:\\github\\upcoming\\customerapplication\\webapplication1\\data\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B94B85B0-56B6-4036-9FBE-85D26B50F9D4}|WebApplication1\\CustomerApplication.csproj|solutionrelative:webapplication1\\data\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B94B85B0-56B6-4036-9FBE-85D26B50F9D4}|WebApplication1\\CustomerApplication.csproj|x:\\github\\upcoming\\customerapplication\\webapplication1\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B94B85B0-56B6-4036-9FBE-85D26B50F9D4}|WebApplication1\\CustomerApplication.csproj|solutionrelative:webapplication1\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B94B85B0-56B6-4036-9FBE-85D26B50F9D4}|WebApplication1\\WebApplication1.csproj|x:\\github\\upcoming\\customerapplication\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B94B85B0-56B6-4036-9FBE-85D26B50F9D4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B94B85B0-56B6-4036-9FBE-85D26B50F9D4}|WebApplication1\\WebApplication1.csproj|x:\\github\\upcoming\\customerapplication\\webapplication1\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B94B85B0-56B6-4036-9FBE-85D26B50F9D4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B94B85B0-56B6-4036-9FBE-85D26B50F9D4}|WebApplication1\\WebApplication1.csproj|x:\\github\\upcoming\\customerapplication\\webapplication1\\data\\customerdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B94B85B0-56B6-4036-9FBE-85D26B50F9D4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\data\\customerdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B94B85B0-56B6-4036-9FBE-85D26B50F9D4}|WebApplication1\\CustomerApplication.csproj|x:\\github\\upcoming\\customerapplication\\webapplication1\\customerapplication.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{B94B85B0-56B6-4036-9FBE-85D26B50F9D4}|WebApplication1\\CustomerApplication.csproj|solutionrelative:webapplication1\\customerapplication.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B94B85B0-56B6-4036-9FBE-85D26B50F9D4}|WebApplication1\\CustomerApplication.csproj|x:\\github\\upcoming\\customerapplication\\webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B94B85B0-56B6-4036-9FBE-85D26B50F9D4}|WebApplication1\\CustomerApplication.csproj|solutionrelative:webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B94B85B0-56B6-4036-9FBE-85D26B50F9D4}|WebApplication1\\CustomerApplication.csproj|x:\\github\\upcoming\\customerapplication\\webapplication1\\customerapplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B94B85B0-56B6-4036-9FBE-85D26B50F9D4}|WebApplication1\\CustomerApplication.csproj|solutionrelative:webapplication1\\customerapplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomerResponse.cs",
+              "DocumentMoniker": "X:\\github\\UPCOMING\\CustomerApplication\\WebApplication1\\GlobalResponse\\CustomerResponse.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\GlobalResponse\\CustomerResponse.cs",
+              "ToolTip": "X:\\github\\UPCOMING\\CustomerApplication\\WebApplication1\\GlobalResponse\\CustomerResponse.cs",
+              "RelativeToolTip": "WebApplication1\\GlobalResponse\\CustomerResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAcAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T19:11:18.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CustomerApplication",
+              "DocumentMoniker": "X:\\github\\UPCOMING\\CustomerApplication\\WebApplication1\\CustomerApplication.csproj",
+              "RelativeDocumentMoniker": "WebApplication1\\CustomerApplication.csproj",
+              "ToolTip": "X:\\github\\UPCOMING\\CustomerApplication\\WebApplication1\\CustomerApplication.csproj",
+              "RelativeToolTip": "WebApplication1\\CustomerApplication.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-02T18:28:35.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ICustomerRepository.cs",
+              "DocumentMoniker": "X:\\github\\UPCOMING\\CustomerApplication\\WebApplication1\\Data\\Repositories\\ICustomerRepository.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Data\\Repositories\\ICustomerRepository.cs",
+              "ToolTip": "X:\\github\\UPCOMING\\CustomerApplication\\WebApplication1\\Data\\Repositories\\ICustomerRepository.cs",
+              "RelativeToolTip": "WebApplication1\\Data\\Repositories\\ICustomerRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T19:04:39.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "X:\\github\\UPCOMING\\CustomerApplication\\WebApplication1\\Data\\Repositories\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Data\\Repositories\\CustomerRepository.cs",
+              "ToolTip": "X:\\github\\UPCOMING\\CustomerApplication\\WebApplication1\\Data\\Repositories\\CustomerRepository.cs",
+              "RelativeToolTip": "WebApplication1\\Data\\Repositories\\CustomerRepository.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAkwE8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T17:51:24.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "X:\\github\\UPCOMING\\CustomerApplication\\WebApplication1\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\CustomersController.cs",
+              "ToolTip": "X:\\github\\UPCOMING\\CustomerApplication\\WebApplication1\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\CustomersController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwCoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T17:46:20.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "X:\\github\\UPCOMING\\CustomerApplication\\WebApplication1\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApplication1\\appsettings.json",
+              "ToolTip": "X:\\github\\UPCOMING\\CustomerApplication\\WebApplication1\\appsettings.json",
+              "RelativeToolTip": "WebApplication1\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-02T17:41:12.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CustomerApplication",
+              "DocumentMoniker": "X:\\github\\UPCOMING\\CustomerApplication\\WebApplication1\\CustomerApplication.csproj",
+              "RelativeDocumentMoniker": "WebApplication1\\CustomerApplication.csproj",
+              "ToolTip": "X:\\github\\UPCOMING\\CustomerApplication\\WebApplication1\\CustomerApplication.csproj",
+              "RelativeToolTip": "WebApplication1\\CustomerApplication.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-02T17:36:14.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "X:\\github\\UPCOMING\\CustomerApplication\\WebApplication1\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Customer.cs",
+              "ToolTip": "X:\\github\\UPCOMING\\CustomerApplication\\WebApplication1\\Models\\Customer.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Customer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T17:27:10.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "X:\\github\\UPCOMING\\CustomerApplication\\WebApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
+              "ToolTip": "X:\\github\\UPCOMING\\CustomerApplication\\WebApplication1\\Program.cs",
+              "RelativeToolTip": "WebApplication1\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T17:23:22.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CustomerDbContext.cs",
+              "DocumentMoniker": "X:\\github\\UPCOMING\\CustomerApplication\\WebApplication1\\Data\\CustomerDbContext.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Data\\CustomerDbContext.cs",
+              "ToolTip": "X:\\github\\UPCOMING\\CustomerApplication\\WebApplication1\\Data\\CustomerDbContext.cs",
+              "RelativeToolTip": "WebApplication1\\Data\\CustomerDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T17:25:28.777Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
