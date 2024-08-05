@@ -28,7 +28,7 @@ namespace CustomerApplication.Controllers
             return Ok(await _customerRepository.GetCustomer());
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("{email}")]
         public async Task<ActionResult<Customer>> GetCustomer(string email)
         {
             var customer = await _customerRepository.GetCustomer(email);
