@@ -25,7 +25,7 @@ namespace CustomerApplication.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Customer>>> GetCustomer()
         {
-            return await _customerRepository.GetCustomer();
+            return Ok(await _customerRepository.GetCustomer());
         }
 
         [HttpGet("{id}")]
@@ -38,10 +38,10 @@ namespace CustomerApplication.Controllers
                 return NotFound();
             }
 
-            return customer;
+            return Ok(customer);
         }
 
-        [HttpPut("{id}")]
+        [HttpPut()]
         public async Task<IActionResult> PutCustomer(Customer customer)
         {
             var createdCustomer = await _customerRepository.UpdateCustomer(customer);
@@ -56,10 +56,9 @@ namespace CustomerApplication.Controllers
 
             return Ok(createdCustomer);
 
-            //return CreatedAtAction("GetCustomer", new { id = customer.email}, customer);
         }
 
-        [HttpDelete("{id}")]
+        [HttpDelete("{email}")]
         public async Task<IActionResult> DeleteCustomer(string email) 
         {
             var customer = await _customerRepository.DeleteCustomer(email);

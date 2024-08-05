@@ -1,14 +1,15 @@
 ﻿using CustomerApplication.Models;
 using Microsoft.AspNetCore.Mvc;
+using static CustomerApplication.GlobalResponse.GlobalResponse;
 
 namespace CustomerApplication.Data.Repositories
 {
     public interface ICustomerRepository
     {
-        Task<ActionResult<Customer>> AddCustomer(Customer customer);
-        Task<ActionResult<bool>> DeleteCustomer(string email);
+        Task<CustomerResponse> AddCustomer(Customer customer);
+        Task<CustomerResponse> DeleteCustomer(string email);
         Task<ActionResult<IEnumerable<Customer>>> GetCustomer();
-        Task<ActionResult<Customer>> GetCustomer(string email);
-        Task<GlobalResponse.GlobalResponse.CustomerResponse> UpdateCustomer(Customer customer);
+        Task<CustomerResponse> GetCustomer(string email);
+        Task<CustomerResponse> UpdateCustomer(Customer customer);
     }
 }

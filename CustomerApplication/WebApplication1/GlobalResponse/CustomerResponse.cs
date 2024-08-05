@@ -5,7 +5,9 @@ namespace CustomerApplication.GlobalResponse
     public class GlobalResponse
     {
 
-        public record class CustomerResponse(bool Flag, Customer? Customer, string Message);
-
+        public record class CustomerResponse(bool result, Customer? Customer, string Message)
+        {
+           
+        }
     }
 }

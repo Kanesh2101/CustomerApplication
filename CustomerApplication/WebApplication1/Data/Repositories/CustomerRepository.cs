@@ -29,24 +29,33 @@ namespace CustomerApplication.Data.Repositories
             }
         }
 
-        public async Task<ActionResult<Customer>> GetCustomer(string email)
+        public async Task<CustomerResponse> GetCustomer(string email)
         {
-            var customer = await _dbContext.Customer.FindAsync(email);
-
-            if (customer == null)
+            try
             {
-                return null;
+                var customer = await _dbContext.Customer.FindAsync(email);
+
+                if (customer == null)
+                {
+                    return new CustomerResponse(false, customer, "Customer Not Found");
+                }
+
+                return new CustomerResponse(true, customer, "Customer Created");
+            }
+            catch (Exception ex)
+            {
+                return new CustomerResponse(true, null, "Error at Get Customer By Email");
+
             }
 
-            return customer;
         }
 
 
         public async Task<CustomerResponse> UpdateCustomer(Customer customer)
         {
-            var existingCustomer = CustomerExists(customer.email);
+            var existingCustomer = CustomerExists(customer.Email);
 
-            if (existingCustomer)
+            if (!existingCustomer)
             {
                 return new CustomerResponse(false, null, "Customer Not Found");
             }
@@ -60,7 +69,7 @@ namespace CustomerApplication.Data.Repositories
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!CustomerExists(customer.email))
+                if (!CustomerExists(customer.Email))
                 {
                     return new CustomerResponse(false, null, "Customer Not Found");
                 }
@@ -70,44 +79,60 @@ namespace CustomerApplication.Data.Repositories
                 }
             }
 
-            var result = _dbContext.Customer.Find(customer.email);
+            var result = _dbContext.Customer.Find(customer.Email);
 
             return new CustomerResponse(true, result, "Success");
         }
 
 
-        public async Task<ActionResult<Customer>> AddCustomer(Customer customer)
+        public async Task<CustomerResponse> AddCustomer(Customer customer)
         {
-            var existingCustomer = CustomerExists(customer.email);
-            if (existingCustomer)
+            try
             {
-                return null;
+                var existingCustomer = CustomerExists(customer.Email);
+                if (existingCustomer)
+                {
+                    return new CustomerResponse(false, null, "Duplicate Customer");
+                }
+
+                _dbContext.Customer.Add(customer);
+                await _dbContext.SaveChangesAsync();
+
+                return await GetCustomer(customer.Email);
+            }
+            catch (Exception ex) {
+                return new CustomerResponse(false, null, "Create Customer Failed");
             }
 
-            _dbContext.Customer.Add(customer);
-            await _dbContext.SaveChangesAsync();
 
-            return await GetCustomer(customer.email);
         }
 
 
-        public async Task<ActionResult<bool>> DeleteCustomer(string email)
+        public async Task<CustomerResponse> DeleteCustomer(string email)
         {
-            var customer = await _dbContext.Customer.FindAsync(email);
-            if (customer == null)
+            try
             {
-                return null;
+                var customer = await _dbContext.Customer.FindAsync(email);
+                if (customer == null)
+                {
+                    return new CustomerResponse(false, null, "Customer Not Found");
+                }
+
+                _dbContext.Customer.Remove(customer);
+                await _dbContext.SaveChangesAsync();
+
+                return new CustomerResponse(true, null, "Customer Deleted");
+            }
+            catch (Exception ex) {
+                return new CustomerResponse(false, null, "Delete Customer Failed");
+
             }
 
-            _dbContext.Customer.Remove(customer);
-            await _dbContext.SaveChangesAsync();
-
-            return true;
         }
 
         private bool CustomerExists(string email)
         {
-            return _dbContext.Customer.Any(e => e.email == email);
+            return _dbContext.Customer.Any(e => e.Email == email);
         }
     }
 }
